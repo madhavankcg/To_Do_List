@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@400;500&display=swap');
+*{
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 1px;
+}
+
+h1{
+  text-align: center;
+  padding: 10px;
+  color: orange;
+}
+body{
+  background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20201023/pngtree-technological-background-vector-illustration-matrix-binary-computer-code-image_432632.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  font-size:larger
+}
+
+form{
+  text-align: center;
+}
+
+form> input,select{
+  padding: 5px;
+  width: 250px;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+.btn-color{
+  background-color: orange;
+  padding: 5px;
+  align-content: center;
+}
+
+button{
+  background-color: darkgray;
+  padding: 5px;
+}
+.taskContainer{
+  padding-top: 50px;
+}
+
+#priority{
+  padding: 5px;
+}
+ul{
+    list-style-type: none;
+}  
+li{ 
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 300px 300px 300px 400px;
+}
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+  }
+.completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+.empty-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:250px;
+}
+  

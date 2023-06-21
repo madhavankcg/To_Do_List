@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TaskList</title>
+  <link rel="stylesheet" type="text/css" href="taskList.css">
+</head>
+<body>
+    <h1>Task List</h1>
+  <form>
+    <input type="text" id="taskField" placeholder="Enter Task Name">
+    <div id="taskError" class="error"></div><br>
+    
+    <input type="date" id="dateField" placeholder="Select DueDate">
+    <div id="dateError" class="error"></div><br>
+    
+    <select id="priority" placeholder="Priority">
+      <option value="" disabled selected hidden>Select Priority</option>
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    <div id="priorityError" class="error"></div><br>
+    
+    <button class="btn-color" type="submit">Submit</button>
+  </form>
+   <div class="taskContainer">
+    <ul>
+        <li>
+            <div class="list-head">S.No</div>
+            <div class="list-head">Task Name</div>
+            <div class="list-head">Due Date</div>
+            <div class="list-head">Priority</div>
+            <div class="list-head">Action Columns</div>
+          </li>
+    </ul>
+    <ul id="taskList"></ul>
+   </div>
+  <script src="taskList.js"></script>
+</body>
+</html>
